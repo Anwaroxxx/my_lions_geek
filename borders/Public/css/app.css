@@ -7,13 +7,12 @@
 }
 .para_border{
     background-color: red;
-    height: 40px;
-    width: 200px;
+    padding: 10px 20px;
     margin: auto;
-    padding-top: 15px;
-    border: 5px rgb(0, 0, 0) inset;
+    border: 5px black inset;
     border-radius: 50%;
     color: white;
+    width: fit-content;
 }
 .black_header{
     background-color: black;
