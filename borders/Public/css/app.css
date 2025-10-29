@@ -1,0 +1,24 @@
+*{
+    text-align: center;
+}
+
+.header_1{
+    border: 2px black dashed;
+}
+.para_border{
+    background-color: red;
+    height: 40px;
+    width: 200px;
+    margin: auto;
+    padding-top: 15px;
+    border: 5px rgb(0, 0, 0) inset;
+    border-radius: 50%;
+    color: white;
+}
+.black_header{
+    background-color: black;
+    color: white;
+}
+.foot_para{
+    border: 2px solid black;
+}
