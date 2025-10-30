@@ -1,0 +1,44 @@
+.orange{
+    background-color: orange;
+    height: 500px;
+    position: relative;
+}
+
+.para {
+  background-color: white;
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  width: fit-content;
+  transform: translate(-50%, -50%);
+
+}   
+
+.yellow{
+    background-color: yellow;
+    height: 700px;
+    position: relative;
+}
+.pink{
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    position: sticky;
+    left: 0;
+    top: 0;
+}
+
+.green{
+    background-color: green;
+    height: 800px;
+}
+
+.blue{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+}
