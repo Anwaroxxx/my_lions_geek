@@ -1,42 +1,48 @@
 section{
-    padding: 50px;
-    border-bottom: black 1px solid;
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
 }
+
+
 section:nth-child(1)
-h4:first-of-type{
+h4{
     color: blue;
 }
 
 section:nth-child(2){
     border-bottom: red 5px solid;
 }
- section:nth-child(3)
- h3,
- ul{
+
+section:nth-child(3){
+h3,ul{
     color: red;
 }
-
-section:nth-child(4) ul{
-    color: black;
 }
 
 section:nth-child(4)
-li > a {
+li > a
+{
     font-size: 25px;
 }
 
+section:nth-child(4){
+    color: black;
+}
 
 section:nth-child(5)
-h3 + span{
+h3 + span
+{
     color: blue;
 }
 
 section:nth-child(6)
-img[alt]{
+img[alt="la-tartine"]
+{
     border: 2px black solid;
     border-radius: 50%;
 }
 
-section:last-of-type p:hover{
+section:last-of-type p:hover
+{
     color: green;
 }
