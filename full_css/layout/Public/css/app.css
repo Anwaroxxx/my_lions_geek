@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+/*`````````````````````````````1st-container`````````````````````````*/
+.container_1{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.first,.second,.third,.fourth,.fifth,.sixth{
+    background-color: red;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+/*`````````````````````````````2nd-container`````````````````````````*/
+.container_2{
+    
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.firstt,.secondt,.thirdt,.fourtht,.fiftht,.sixtht{
+    background-color: red;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+
+}
+
+.fourtht{
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hehehe{
+    bottom: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*````````````````````````3rd-container```````````````````````````````*/
+
+.bage{
+    background-color: burlywood;
+    display: flex;
+    height: 400px;
+    justify-content: space-evenly;
+    position: relative;
+    padding-top: 15px;
+}
+
+.ciao{
+    background-color: orangered;
+    height: 310px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.lorem{
+    background-color: orangered;
+    width: fit-content;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 30px;
+}
+
+/*```````````````````````````last container```````````````````````````*/
+.big_cont{
+    background-color: blanchedalmond;
+    height: 700px;
+    width: 100%;
+    display: flex;
+}
+.first_contn{
+    display: flex;
+}
+.first_sub{
+    background-color: rgb(229, 132, 22);
+    height: 140px;
+    width: 100%;
+    justify-content: center;
+    border: white 5px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*``````````````````````````````````````````````````````*/
+.second_contn{
+    display: flex;
+    border: white 5px solid;
+}
+.first_child{
+    background-color: rgb(229, 132, 22);
+    height: 140px;
+    width: 50%;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second_child{
+    background-color: rgb(229, 132, 22);
+    height: 140px;
+    width: 50%;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*``````````````````````````````````````````````````````*/
+
+.third_contn{
+    display: flex;
+    border: white 5px solid;
+}
+.first_child_3,.second_child_3,.third_child_3{
+    background-color: rgb(229, 132, 22);
+    height: 140px;
+    width: 33%;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*``````````````````````````````````````````````````````*/
+
+.last_contn{
+    display: flex;
+    border: white 5px solid;
+
+}
+
+.last_child_3{
+    background-color: rgb(229, 132, 22);
+    height: 140px;
+    width: 8.33%;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
