@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: ;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+
+section div{
+    margin: 2px;
+    column-gap: 10px;
+}
+.first_row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left_first div {
+  display: flex;
+  background-color: red;
+  height: 60px;
+  width: 50vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.right_first div {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  height: 125px;
+  width: 50vw;
+  justify-content: center;
+  align-items: center;
+}
+/*````````````````````````````````````````````````````````````````````````````````````````````````````````*/
+.second_row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+.second_left div {
+  display: flex;
+  background-color: red;
+  height: 30px;
+  width: 50vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.second_right div{
+    display: flex;
+    justify-content: center;
+    height: 108px;
+    width: 50vw;
+    align-items: center;
+}
+
+.right div{
+    gap: 50px;
+    background-color: red;
+}
+
+
+/*```````````````````````````````````````````````````````````````````````````````````````````````````````````````````*/
+.third_row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.third_row .third_left{
+    display: flex;
+    align-items: center;
+}
+
+.third_left div{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    height: 205px;
+    width: 142.5px;
+    align-items: center;
+}
+
+.third_row .third_right div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: red;
+    height: 100px;
+    width: 500px;
+    align-items: center;
+}
+
+7777
+23212211111111111111111111111
+111212112121212
+121211121
+1121
+1212111121
+1121
+1112
+1121212112121
+12177
+778787878
+777777787878787877778
+7787
+78787
+77787
+78787878787
+77787
+777777778788878787878878
+
+1211112121212121212222112
+1212112121212121
+
+1
+1211121112
+11212
+442424242424242222442424244
+
+
+
+
+111111112112121111111112121212112111212121212121
+1111121212121212111112212
+
+77777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777
+777777777777777777777777777777777777777777777777777777777777777773333388888888888888888888888888888888777
+7
+777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777
+77777777777777777777777777777777777777777777777777777777777777777777898888888888888888888888888888888888888888888888888888888888888888888888
+
+
+
+
+

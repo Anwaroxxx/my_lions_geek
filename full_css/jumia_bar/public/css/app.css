@@ -1,0 +1,53 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    justify-content: start;
+}
+
+button{
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 10px;
+}
+
+input{
+    height: 35px;
+    width: 320px;
+    padding-left: 30px;
+}
+
+.links {
+    display: flex;
+    column-gap: 20px;
+}
+.links a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.search-icon{
+    position: relative;
+}
+.icon{
+    position: absolute;
+    left: 5px;
+}
+
+.links .first_hyperlink{
+    width: max-content;
+}
