@@ -1,0 +1,254 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to top, black, rgb(0, 80, 70));
+  width: 100vw;
+  height: 100vh;
+  padding-left: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+
+.left_nav {
+  display: flex;
+  column-gap: 5px;
+}
+
+.left_nav div {
+  background-color: rgb(25, 25, 25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: rgb(156, 154, 154);
+  font-size: 15px;
+}
+
+.left_nav div:hover{
+    background-color: rgb(187, 187, 187);
+    color: black;
+    transition: 0.8s;
+}
+
+.right_nav {
+  display: flex;
+  column-gap: 15px;
+  margin-right: 20px;
+}
+
+.Premium button {
+  border: none;
+  color: black;
+  width: max-content;
+  height: max-content;
+  padding: 6px 20px;
+  border-radius: 30px;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.Premium button:hover{
+    padding: 6px 30px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+
+.right_nav .bell,
+.users {
+  background-color: rgb(25, 25, 25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: rgb(161, 161, 161);
+  font-size: 15px;
+  width: 30px;
+  height: 30px;
+}
+
+.right_nav .bell:hover,
+.users:hover {
+    background-color: rgb(187, 187, 187);
+    color: black;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+
+.profile img {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.type {
+  display: flex;
+  column-gap: 10px;
+  margin-bottom: 20px;
+  
+}
+
+.type div {
+  width: max-content;
+  height: max-content;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.6px);
+  -webkit-backdrop-filter: blur(3.6px);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  padding: 5px 10px;
+  border-radius: 25px;
+  color: white;
+}
+
+.type div:hover{
+    color: black;
+    background-color: white;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+
+.playlist {
+  display: grid;
+  grid-template-rows: 60px 60px;
+  row-gap: 15px;
+  margin-bottom: 70px;
+  margin-right: 25px;
+}
+
+.top-playlist {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 15px;
+}
+
+.top-playlist div {
+  display: flex;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 5px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.6px);
+  -webkit-backdrop-filter: blur(3.6px);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+
+.top-playlist div:hover{
+    color: black;
+    background-color: white;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.bottom-playlist {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 15px;
+}
+
+.bottom-playlist div {
+  display: flex;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 5px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.6px);
+  -webkit-backdrop-filter: blur(3.6px);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+
+.bottom-playlist div:hover{
+    color: black;
+    background-color: white;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.suggestion {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  color: white;
+  margin-bottom: 15px;
+}
+
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  color: white;
+}
+
+.boxes img {
+  width: 280px;
+  height: 280px;
+  border-radius: 10px;
+}
+
+.option {
+    display: flex;
+    column-gap: 10px;
+}
+
+.option img {
+    width: 65px !important;
+    height: 65px !important;
+    border-radius: 5px;
+}
+
+.first_para{
+    font-weight: 600;
+}
+
+.second_para{
+    color: grey;
+}
+
+.mid_text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mid_text a{
+    margin-right: 25px;
+    text-decoration: none;
+    color: grey;
+    font-weight: 700;
+     transition: 0.8s;
+}
+
+.mid_text a:hover{
+    cursor: pointer;
+    color: white;
+    transition-delay: 0.1s;
+}
+
+.suggestion div img:hover{
+    padding-bottom: 15px;
+    transition: 0.8s
+}
+
