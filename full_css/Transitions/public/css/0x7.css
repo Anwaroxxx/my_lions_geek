@@ -1,0 +1,14 @@
+#box{
+    width: 150px;
+    height: 150px;
+    background-color: lightblue;
+    transition: 3s  ease;
+}
+
+#box:active{
+    border-radius: 50%;
+    background-color: purple;
+    margin-left: 600px;
+    width: 75px;
+    height: 30px;
+}

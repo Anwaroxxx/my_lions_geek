@@ -1,0 +1,16 @@
+#parent{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+}
+
+#parent:active #child{
+background-color: red;
+
+}
+#child{
+    width: 20%;
+    height: 20%;
+    background-color: lightblue;
+    transition: 3s ease-in;
+}
