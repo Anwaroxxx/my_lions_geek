@@ -1,6 +1,6 @@
 # Transitions
 
-Welcome to **Transitions! **🚀  
+Welcome to **Transitions!**🚀  
 This repository is your hands-on guide to mastering **CSS transitions** and **pseudo-classes** through a series of fun and interactive exercises.
 
 ## What's Inside?
