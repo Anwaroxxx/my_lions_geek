@@ -9,10 +9,16 @@ div {
   background: red;
   margin-bottom: 200px;
 }
-div:nth-child(2n) {
+
+.last-exo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-h2 {
-  margin: 100px;
-  font-size: 50px;
-  color: green;
+.last-exo::after{
+  content: '';
+  background-color: blue;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
