@@ -1,0 +1,45 @@
+div {
+  animation: red-box 3s forwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+
+@keyframes red-box {
+    0%{
+      transform: translate(0px, 0px) rotate(0deg);
+    }
+    25%{
+      transform: translate(200px, 0px) rotate(90deg);
+    }
+    50%{
+      transform: translate(200px, 200px) rotate(180deg);
+    }
+    75%{
+      transform: translate(0px, 200px) rotate(270deg);
+    }
+    100%{
+      transform: translate(0px, 0px) rotate(360deg);
+    }
+}
+
+div:hover{
+  animation-play-state: paused;
+  cursor: pointer;
+}
+
+h2{
+  animation: bounce 1s infinite;
+}
+
+
+
+@keyframes bounce {
+
+  0%, 100% {
+    transform: translateY(50px) scaleY(0.8);
+  }
+  50% {
+    transform:translateY(-50px) scaleY(1.2) ;
+  }
+}
