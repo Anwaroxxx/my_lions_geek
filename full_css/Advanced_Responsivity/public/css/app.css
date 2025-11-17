@@ -1,0 +1,192 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+#bare{
+    display: none;
+    font-size: 20px;
+}
+.navbar{
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    justify-content: space-between;
+    padding: 0px 20px;
+    align-items: center;
+    position: relative;
+
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.left div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left input{
+    width: 400px;
+    height: 42px;
+    padding: 10px 15px;
+    border: none;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    outline: none;
+}
+
+input{
+    position: relative;
+}
+
+span{
+    position: absolute;
+    right: 55px;
+    top: 11px ;
+}
+
+span i{
+    font-size: 10px;
+}
+#search-bar{
+    position: relative;
+}
+#search-bar .fa-magnifying-glass{
+    position: absolute;
+    right: 9px;
+    top: 6px ;
+    background-color: rgb(249, 81, 199);
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 50%;
+}
+
+#checkmenu{
+    display: none;
+}
+
+
+.left svg{
+    width: 100px;
+}
+.left .links{
+    display: flex;
+    column-gap: 25px;
+}
+.links a ,.right a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right div{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+
+.right button{
+    width: 80px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    padding-inline: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 425px) {
+    
+    #bare{
+        display: block;
+    }
+
+    .navbar{
+        z-index: 1000777777;
+        position: fixed;
+        top: 0;
+        height: 60px;
+    }
+    .navbar .links{
+        top: 10vh;
+        z-index: 77777777777;
+    }
+
+    .left svg{
+        position: absolute;
+        left: 12%;
+    }
+    
+
+
+    #search-bar input ,span {
+        display: none;
+    }
+
+    .navbar .links{
+        display: flex;
+        flex-direction: column;
+        top: 70px;
+        left: 0px;
+        width: 100vw;
+        position: fixed;
+        justify-content: start;
+        align-items: start;
+        padding: 20px;
+        transform: translateY(-160%);
+        backdrop-filter: blur(10px);
+        background-color: transparent;
+        transition: transform 0.5s ease-in-out;
+        z-index: 999;
+    }
+
+    .navbar .links a, i{
+        height: 25px;
+    }
+
+    #search-bar .fa-magnifying-glass{
+        background-color: white;
+        font-size: 20px;
+        color: black;
+        left: 220px;
+        top: -15px;
+    }
+
+    .right .sign{
+        display: none;
+    }
+
+    #checkmenu:checked + .links{
+        transform: translateY(0);
+    }
+}
